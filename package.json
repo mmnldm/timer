@@ -1,0 +1,20 @@
+{
+  "name": "timer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./css/style.css",
+    "watch": "tailwindcss -i ./input.css -o ./css/style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.9",
+    "tailwindcss": "^3.2.7"
+  },
+  "dependencies": {
+    "eslint": "^8.36.0"
+  }
+}
